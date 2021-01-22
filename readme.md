@@ -15,3 +15,12 @@ Hay dos formas de usar git reset: con el argumento --hard, borrando toda la info
 **git reset --hard**: Borra todo. Todo todito, absolutamente todo. Toda la información de los commits y del área de staging se borra del historial.
 
 **git reset --HEAD**: Este es el comando para sacar archivos del área de Staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envién al útlimo commit, a menos que cambiemos de opnición y los incluyamos de nuevo en el staging con _git add_, por supuesto. 
+
+# Creación de ramas 
+**git branch <branch_name>**: Crea una nueva rama al respositorio 
+
+**git checkout <branch_name>**: Cambiamos de rama
+
+**git log**: Muestra el historias de cambios realizados en el proyecto
+
+**git show**: Muestra los últimos cambios realizados en el repositorio
