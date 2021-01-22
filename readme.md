@@ -32,3 +32,17 @@ A continuación se muestran algunos comando de ayuda para realizar la conexión 
 
  **git remote set-url origin <SSH_remote>**: Conexión por ssh a GitHub 
 
+# Tags y versiones en Git y GitHub
+**git log**: Muestra el log de cambios realizados en el repositorio
+
+**git log --all --graph**: Muestra el log con sus ramas de forma grafica
+
+**git log --all --graph --decorate --oneline**: Muestra una versión gráfica reducida de las ramas y commits del repositorio
+
+**git tag -a <version del proyecto> -m "<Mensaje del tag>" <hash del commit>**: realiza un tag a un commit del repositorio, esto nos sirve para saber que versión es la estable hasta el momento
+
+# Linux command alias 
+ 
+El comando *alias* crea un alias para un comando largo, por ejemplo para crear un _alias_ para el comando "git log --all --graph --decorate --oneline" se realiza de la siguiente forma
+
+* alias arbol="git log --all --graph --decorate --oneline"
