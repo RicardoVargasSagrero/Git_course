@@ -24,3 +24,11 @@ Hay dos formas de usar git reset: con el argumento --hard, borrando toda la info
 **git log**: Muestra el historias de cambios realizados en el proyecto
 
 **git show**: Muestra los últimos cambios realizados en el repositorio
+
+# Conexión a Github con SSH
+A continuación se muestran algunos comando de ayuda para realizar la conexión a GitHub con SSH.
+
+**git remote -v**: Enlista los origenes del repositorio
+
+ **git remote set-url origin <SSH_remote>**: Conexión por ssh a GitHub 
+
