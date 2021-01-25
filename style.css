@@ -42,3 +42,12 @@ body{
     padding: 0 0 0 1em;
     
 }
+#footer{
+    background-color: cadetblue;
+    height: 45px;
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
